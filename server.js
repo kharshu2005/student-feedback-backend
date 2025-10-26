@@ -19,11 +19,9 @@ connectDB();
 
 // CORS Configuration for Production
 const allowedOrigins = [
-  'http://localhost:3000', // Local development
-  'http://localhost:5173', // Vite local (if needed)
-  // Add your Vercel URL after deployment (example below)
-  // 'https://student-feedback-frontend.vercel.app',
-  // 'https://your-custom-domain.vercel.app'
+  'http://localhost:3000',
+  'http://localhost:5173',
+  'https://student-feedback-frontend-xi.vercel.app', // ← YOUR VERCEL FRONTEND URL
 ];
 
 // CORS Middleware
